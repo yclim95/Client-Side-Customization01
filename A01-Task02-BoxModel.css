@@ -1,0 +1,54 @@
+.wrapper
+{
+    width: 450px;
+    height: auto;
+    border: 5px solid #0088FF;
+    padding: 10px;
+    margin: 0;
+}
+
+.wrapper ~ .space
+{
+    margin-bottom: 10px;
+}
+
+.wrapper img
+{
+    width: 350px;
+}
+
+#box-model-01
+{
+    background-color: #AA88FF;
+}
+
+.wrapper .block
+{
+    display: block;
+    text-align: center;
+    background-color: #00DDFF;
+}
+
+.wrapper .inline
+{
+    display: inline;
+    background-color: rgb(130, 149, 255);
+}
+
+#box-model-02
+{
+    background-color: rgb(65, 255, 223);
+}
+
+/*
+Line 1-8:   Box Model. Assigned width of 450px , border(left-right) 5px, padding(left-right) 10px.
+            Total width : 480px
+Line 10-13: Select every .space class element that is preceded by .wrapper class and
+            assigned a margin-bottom of 10px;
+Line 15-18  Target evey img element inside .wrapper class and give the image a width of 350px
+Line 20-23  Select the element which have id of "box-model-01" a background color of  #AA88FF
+Line 25-30  Target every .block element inside .wrapper class and give a block display,
+            which takes up the whole row, horizontal align the text into the center, background color of #00DDF;
+Line 32-36 Target every .inline element inside .wrapper class and give a inline display,
+            which only style the inside element, background color of rgb(130, 149, 255)
+Line 20-23  Select the element which have id of "box-model-02" a background color of  rgb(65, 255, 223)

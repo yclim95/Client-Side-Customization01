@@ -1,0 +1,35 @@
+body
+{
+    background-color:#000000;
+    color:#FFFFFF;
+    margin: 100px;
+}
+h1
+{
+    text-align:center;
+    color:#0083FF;
+}
+p
+{
+    text-align:justify;
+    line-height: 3;
+}
+.bold
+{
+    font-weight: bolder;
+}
+.italic
+{
+    font-style: italic;
+}
+
+/*
+    Line 1-24 - External CSS
+    Line 1-6:  Body element. #000000 is assigned as the background color, text color as #FFFFFF and
+                margin of 100px for(left,right,top,bottom)
+    Line 7-11: H1: Heading 1 element. H1 text is centralized and font color is assigned #0083FF
+    Line 12-16: Paragraph element. Paragraph text is aligned as justify and the line height is 3 times the normal
+                line height
+    Line 17:20: Span tag with ".bold" class. The elements inside it has bolder font weight 
+    Line 21:24: Span tag with ".italic" class. The elements inside it has italic font style 
+*/

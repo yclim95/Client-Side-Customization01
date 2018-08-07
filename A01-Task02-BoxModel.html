@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Box Model</title> <!--Title of the Page--> 
+        <link rel="stylesheet" type="text/css" href="A01-Task02-BoxModel.css"> <!--CSS-->
+    </head>
+    <body>
+        <h1>Box Model</h1> <!--Title: Heading#1-->
+        <div class="wrapper" id="box-model-01"> <!--Box Model-->
+            <span class = "block">Block</span> <!--Block Title-->
+            <img src="https://www.sideshowtoy.com/assets/products/200516-the-flash/lg/dc-comics-the-flash-statue-prime1-studio-200516-03.jpg"
+            alt = "The Flash"> <!--Image-->
+            <span class="block">The Flash</span> <!--Block Caption-->
+        </div>
+
+        <div class="space"></div>
+        <div class="wrapper" id="box-model-02"> <!--Box Model-->
+                <span class = "block">Inline</span>  <!--Block Title-->
+                <img src="https://www.sideshowtoy.com/assets/products/200516-the-flash/lg/dc-comics-the-flash-statue-prime1-studio-200516-03.jpg"
+                alt = "The Flash"> <!--Image-->
+                <span class="inline">The Flash</span> <!--Block Inline-->
+        </div>
+    </body>
+</html>
+
+<!--
+    CSS: Cascading Stylesheet
+    Line 4: Title of the Page
+    Line 5: Import External CSS
+    Line 9: Box Model outline - Assigned a class attribute of "wrapper" and id attribute of "box-model-01"
+            (Block Element)
+    Line 10: Title of the content inside the box model - Assigned a class attribute of "block"
+            (Inline Element)
+    Line 11-12: Image (Block Element)
+    Line 13: Block Caption - Assigned a class attribute of "block" (Inline Element)
+
+    Line 16: Give a class of "space". (Block Element)
+
+    Line 17: Box Model outline - Assigned a class attribute of "block" and id attribute of "box-model-02"
+    Line 18: Title of the content inside the box model - Assigned a class attribute of "block"
+    Line 19-20: Image
+    Line 21: Inline Caption - Assigned a class attribute of "inline"
+-->
